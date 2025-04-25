@@ -53,7 +53,7 @@ magit-buffer-name-format."
 
 (defun structured-commit/all-types ()
   "The list of potential commit types."
-  '(build ci docs feat fix perf refactor test))
+  '(build ci docs feat fix perf refactor test chore))
 
 (defun structured-commit/write-message ()
   "Help write a structured commit message.
